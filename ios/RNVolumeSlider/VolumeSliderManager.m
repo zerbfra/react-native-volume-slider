@@ -14,6 +14,8 @@ RCT_EXPORT_VIEW_PROPERTY(thumbTintColor, UIColor);
 RCT_EXPORT_VIEW_PROPERTY(onValueChange, RCTBubblingEventBlock);
 RCT_EXPORT_VIEW_PROPERTY(thumbImage, UIImage);
 RCT_EXPORT_VIEW_PROPERTY(showsRouteButton, BOOL);
+RCT_EXPORT_VIEW_PROPERTY(showsVolumeSlider, BOOL);
+
 RCT_CUSTOM_VIEW_PROPERTY(thumbSize, RCTthumbSize, VolumeSlider) {
   NSDictionary *thumbSize = (NSDictionary *) json;
   
