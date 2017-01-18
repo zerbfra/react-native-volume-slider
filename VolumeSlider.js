@@ -50,6 +50,11 @@ class VolumeSlider extends Component {
     showsRouteButton: PropTypes.bool,
 
     /**
+     * Specifies whether or not to show the volume slider
+     */
+    showsVolumeSlider: PropTypes.bool,
+
+    /**
      * Callback continuously called while the user is dragging the slider.
      */
     onValueChange: PropTypes.func
@@ -57,7 +62,8 @@ class VolumeSlider extends Component {
 
   static defaultProps = {
     thumbSize: { width: 23, height: 23 },
-    showsRouteButton: true
+    showsRouteButton: true,
+    showsVolumeSlider: true
   };
 
   render() {
